@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+body{
+    background: rgba(63, 199, 176, 0.938);
+}
+
+header, .alert{
+    z-index: 100;
+}
+  
+.navbar{
+    background: rgb(173, 199, 197);
+    justify-content: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+.welcome{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Fuzzy Bubbles';
+}
+
+
+.imagem_Welcome{
+    margin: auto;
+    display: block;
+}
+
+
+.carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.table__productos{
+    display: flex;
+}
+
+
+.table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+
+.table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.hide, .remove{
+    display: none;
+}
